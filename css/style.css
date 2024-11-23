@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header .highlight {
+    color: #f39c12;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Tombol dengan Hover */
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background: #45a049;
+    transform: scale(1.05); /* Efek memperbesar saat hover */
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
