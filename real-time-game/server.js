@@ -60,7 +60,6 @@ io.on('connection', (socket) => {
     });
 
 // Jalankan server
-    const PORT = 3000;
-    server.listen(PORT, () => {
-        console.log(`Server running on http://localhost:${PORT}`);
-    });
+const socket = io('https://pie-sunset-wedge.glitch.me/game.html'); // URL server Glitch
+;
+});
