@@ -4,6 +4,8 @@ canvas.width = 800;
 canvas.height = 600;
 
 const socket = io();
+const socket = io('https://pie-sunset-wedge.glitch.me/game.html'); // URL server Glitch
+
 
 // Data pemain
 let players = {};
